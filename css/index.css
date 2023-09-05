@@ -23,6 +23,15 @@ header {
     right: 0;
 }
 
+.menu-opcoes a:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.menu-opcoes a:active {
+    color: purple;
+}
+
 .menu-opcoes ul {
     font-size: 15px;
     display: block;
@@ -74,6 +83,10 @@ header {
     margin-top: 10px;
     padding-bottom: 10px;
     padding-top: 5px;
+}
+
+.menu-departamentos ul li a::before {
+    content: "\277a";
 }
 
 .busca {
