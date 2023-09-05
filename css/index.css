@@ -30,9 +30,13 @@ header {
 
 }
 
-.menu-opcoes ul li {
+.menu-opcoes li {
     display: inline;
     margin-left: 20px;
+}
+
+.menu-opcoes a {
+    text-decoration: none;
 }
 
 .menu-opcoes a {
@@ -184,16 +188,17 @@ ol {
     background-image: url(../img/img/fundo-rodape.png);
     height: 120px;
     margin-top: 490px;
+    width: 100%;
 }
 
 .logo-rodape {
-    margin-left: 20px;
+    margin-left: 300px;
     margin-top: 33px;
 }
 
 .rodape ul {
     float: right;
-    margin: 43px 25px 0 0;
+    margin: 43px 300px 0 0;
 }
 
 .rodape ul li {
