@@ -154,6 +154,14 @@ header {
     margin-right: 5px;
 }
 
+.novidades li:hover,
+.mais-vendidos li:hover {
+    background-color: white;
+    box-shadow: 0 0 5px #333;
+    transition: 0.5s;
+    transform: scale(1.2) rotate(-5deg);
+}
+
 .mais-vendidos {
     float: right;
     background-color: #d0dde9;
