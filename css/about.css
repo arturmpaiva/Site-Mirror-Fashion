@@ -9,34 +9,56 @@ body {
 p {
     text-indent: 15px;
     text-align: justify;
-    padding: 0 45px;
+    padding: 10px 45px;
+    line-height: 1.8rem;
 }
 
 #h1background {
     background-image: url(../img/img/sobre-background.jpg);
-    padding: 10px;
+    padding: 18px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 1px solid #cccccc;
     background-color: #f2eded;
-    padding: 15px;
-    margin: 30px;
+    padding: 20px 20px 20px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
     text-align: center;
+    width: 550px;
 }
 
 #distribuicao {
-    width: 550px;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
+    paddin
 }
 
 figcaption {
+    margin-top: 20px;
     font-style: italic;
 }
 
 h2 {
     margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
     border-bottom: 2px solid #333333;
 }
 
@@ -46,6 +68,16 @@ h2 {
     text-align: center;
     margin: 0 0 10px 10px;
     float: right;
+    width: 300px;
+}
+
+ul {
+    list-style: inherit;
+    margin-top: 20px;
+}
+
+li {
+    line-height: 1.7rem;
 }
 
 footer {
@@ -53,7 +85,7 @@ footer {
     padding: 30px 0;
 }
 
-footer img {
+.rodape-logo {
     float: left;
     margin-right: 20px;
     vertical-align: middle;
